@@ -1,0 +1,409 @@
+/*HEADER*/
+
+@media (min-width: 320px) and (max-width: 640px) {
+	nav {
+		background: #0DC0C0;
+	}
+}
+
+nav h1 {
+	font-size: 1.3em;
+}
+
+nav a {
+	font-size: 0.9em;
+	color: white;
+	margin: 0% 3%;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #0DC0C0;
+}
+
+#menu.active {
+	background-color: #009ca8;
+	padding: 6px 0;
+  webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	-webkit-transform: translateZ(0);
+}
+/*END HEADER*/
+
+.title h1 {
+	font-size: 3em;
+	font-weight: normal;
+}
+
+.title p {
+	font-size: 0.9em;
+}
+
+.title {
+	position: absolute;
+	z-index: 100;
+	margin: 15% 19%;
+}
+
+.title .row {
+	padding: 5% 30%;
+}
+
+.opacity-white {
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-learn-more p {
+	padding: 10%;
+	font-size: 1em;
+	position: relative;
+}
+
+.btn-portfolio {
+	padding: 10% 0%;
+	background: #4A4949;
+	opacity: 0.9;
+}
+
+.btn-learn-more:hover, .btn-portfolio:hover {
+	background: #0DC0C0;
+}
+
+/*HERO IMAGE*/
+.hero-image, .opacity {
+	position: relative;
+}
+
+.hero-image	{
+	height: 645px;
+	background: url(../img/background/hero.jpg) no-repeat;
+	background-size: cover;
+}
+
+.opacity {
+	width: 100%;
+	height: 645px;
+	background: black;
+	opacity: 0.6;
+}
+/*END HERO IMAGE*/
+
+/*ICONS*/
+
+.icons i {
+	font-size: 3em;
+	color: #0DC0C0;
+}
+
+.icons p {
+	font-size: 0.8em;
+}
+
+/*FEATURES*/
+
+#features {
+	font-size: 2em;
+}
+
+/*DESCRIPTION*/
+
+.description {
+	font-size: 0.8em;
+}
+
+.description i {
+	font-size: 2em;
+	color: #0DC0C0;
+}
+
+.description .col-sm-11 {
+	padding: 1%;
+}
+
+.description .col-sm-6 .row {
+	padding: 5%;
+}
+
+/*PORTFOLIO*/
+
+#portfolio p {
+	font-size: 0.9em;
+}
+
+#portfolio .row:first-child {
+	padding: 1% 25%;
+}
+
+.button {
+	width: 18%;
+	background: white;
+	margin: 0.5%;
+}
+
+.btn-web-design {
+	width: 21%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.button {
+		width: 100%;
+	}
+}
+
+.button a {
+	color: black;
+	font-weight: bold;
+}
+
+.button:hover {
+	background: #0DC0C0;
+}
+ .button:hover a {
+ 	color: white;
+ }
+
+#portfolio .white-box {
+	width: 100%;
+	background: white;
+	padding: 1%;
+	margin: 2% 0;
+	line-height: 1.5;
+	box-shadow: 6px 5px 32px -6px rgba(0,0,0,0.75);
+  box-shadow: 6px 5px 32px -6px rgba(0,0,0,0.75);
+  box-shadow: 6px 5px 32px -6px rgba(0,0,0,0.75);
+  -webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+}
+
+#portfolio .col-sm-6:hover {
+	-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(-7deg);
+-ms-transform: rotate(-7deg);
+transform: rotate(-7deg);
+}
+
+#portfolio .col-sm-6 img {
+	width: 100%;
+}
+
+.btn-load {
+	background: #24282E;
+	margin: 4% auto 0%;
+}
+
+/*CALL TO ACTION*/
+
+.call-to-action {
+	width: 100%;
+	height: 414px;
+	background: url(../img/background/city.jpg) top;
+	background-size: 100%;
+	position: absolute;
+}
+
+.call-to .opacity {
+	height: 414px;
+	position: absolute;
+}
+
+.cta {
+	margin: 6.5% 20%;
+	font-size: 1.2em;
+	position: relative;
+}
+
+.btn-cta {
+	margin: 10% 40%;
+	padding: 0.5% 0%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.btn-cta {
+		margin: 10% auto;
+	}
+}
+
+.btn-cta a {
+	font-size: 0.8em;
+	font-weight: bold;
+	position: relative;
+}
+
+.btn-cta:hover a {
+	color: #000;
+	font-weight: bold;
+}
+
+/*CHOOSE THE PACKAGE*/
+
+#pricing .pricing-box {
+	width: 100%;
+	background: white;
+	margin: 2% 0;
+	box-shadow: 6px 5px 32px -6px rgba(0,0,0,0.75);
+  box-shadow: 6px 5px 32px -6px rgba(0,0,0,0.75);
+  box-shadow: 6px 5px 32px -6px rgba(0,0,0,0.75);
+}
+
+#pricing h1 {
+	color: #494B4E;
+	font-size: 2em;
+}
+
+#pricing h2 {
+	font-size: 2em;
+}
+
+#pricing p {
+	font-size: 0.9em;
+}
+
+#pricing span {
+	font-size: 1.5em;
+}
+
+#pricing hr {
+	margin: 4% 2%;
+}
+
+.price p {
+	color: black;
+}
+
+.package {
+	background: #24282E;
+}
+
+.pack-premium {
+	background: #0DC0C0;
+}
+
+.btn-purchase {
+	width: 40%;
+	background: black;
+	margin: auto;
+	opacity: 0.8;
+	font-size: 0.9em;
+}
+
+/*CUSTOMERS*/
+
+.customers {
+	font-size: 0.9em;
+	margin: 5% 15% 0%;
+	line-height: 2;
+}
+
+.customers img {
+	width: 15%;
+	border-radius: 100%;
+}
+
+.customers h5 {
+	font-size: 1em;
+}
+
+/*CONTACT US*/
+
+.contact {
+	width: 100%;
+	height: 690px;
+	background: url(../img/background/contactus.jpg) no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+
+#contact-us .opacity {
+	height: 690px;
+	position: absolute;
+	background: black;
+	opacity: 0.6;
+}
+
+.contact-us p {
+	color: white;
+	font-size: 0.65em;
+}
+
+.contact-us .col-sm-5 p {
+	font-size: 0.64em;
+	line-height: 1.7;
+}
+
+.contact-us {
+	margin: 0% 10%;
+	font-size: 1.3em;
+	position: relative;
+}
+
+.contact-us h2, .contact-us h3 {
+	margin: 5% 0%;
+}
+
+.form-control, textarea {
+	width: 100%;
+	display: block;
+	font-size: 0.875em;
+	padding: 2%;
+	background: black;
+	opacity: 0.3;
+	margin: 2% 0%;
+	border: none;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.btn-submit {
+	width: 20%;
+	background: #0DC0C0;
+	padding: 2%;
+	margin: 2% 0%;
+}
+
+.btn-submit:hover {
+	background: #ffF;
+}
+
+.btn-submit:hover a {
+	color: #0DC0C0;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.btn-submit {
+		width: 100%;
+	}
+}
+
+/*FOLLOW US!*/
+
+.follow-us h1 {
+	font-size: 2em;
+}
+
+.social-red i {
+	font-size: 3em;
+	margin: 0% 1%;
+}
+
+.social-red i:hover {
+	color: #0DC0C0;
+}
+
+.social-red a {
+	color: black;
+}
+
+/*FOOTER*/
+
+footer {
+	background: #24282E;
+	padding: 3% 42%;
+	font-size: 0.7em;
+}
